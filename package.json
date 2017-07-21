@@ -1,0 +1,24 @@
+{
+  "name": "demo-react-mobx-web",
+  "version": "1.0.0",
+  "description": "A website created by react, react-router-v4, mobx...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnzsb/demo-react-mobx-web.git"
+  },
+  "keywords": [
+    "react",
+    "react-router-v4",
+    "mobx"
+  ],
+  "author": "cnzsb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnzsb/demo-react-mobx-web/issues"
+  },
+  "homepage": "https://github.com/cnzsb/demo-react-mobx-web#readme"
+}
