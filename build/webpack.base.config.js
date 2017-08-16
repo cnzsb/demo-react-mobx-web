@@ -24,6 +24,25 @@ module.exports = {
         test: /\.(js|jsx)$/,
         loader: 'babel-loader',
         include: pathSrc
+      },
+      {
+        test: /\.(css|scss)$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 2,
+            }
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              exec: false
+            }
+          },
+          'sass-loader'
+        ]
       }
     ]
   }
