@@ -1,0 +1,11 @@
+a {
+  &,
+  &:active {
+    color: black;
+  }
+
+  &:hover,
+  &.active {
+    color: deepskyblue;
+  }
+}
