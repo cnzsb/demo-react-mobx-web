@@ -4,7 +4,7 @@
   "description": "A website created by react, react-router-v4, mobx...",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --progress --colors --hot --config ./build/webpack.dev.config.js",
+    "dev": "webpack-dev-server --colors --hot --config ./build/webpack.dev.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
