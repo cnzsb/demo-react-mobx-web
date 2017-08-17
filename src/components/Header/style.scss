@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  background-color: powderblue;
+
+  .logo {
+    margin: 0 20px;
+    width: 150px;
+    height: 35px;
+
+    .img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+    &-item {
+      display: block;
+      height: 64px;
+      line-height: 64px;
+      padding: 0 20px;
+      color: #fff;
+      font-size: 22px;
+
+      &:hover,
+      &.active {
+        color: darkblue;
+      }
+    }
+  }
+}
